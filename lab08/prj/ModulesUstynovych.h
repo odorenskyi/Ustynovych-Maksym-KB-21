@@ -17,5 +17,4 @@ string rating (int rating);
 int avr_temperature(double temp[7]);
 
 int bits_number(int number);
-
 #endif // MODULESUSTYNOVYCH_H_INCLUDED
