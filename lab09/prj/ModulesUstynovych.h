@@ -10,9 +10,11 @@ using namespace std;
 
 double s_calculation(double x, double y, double z);
 
-string rating (int rating);
+string rating (int mark);
 
-int avr_temperature(double temp[7]);
+int avr_temperature_cel(int d1, int d2, int d3, int d4, int d5, int d6, int d7);
+
+int avr_temperature_far(float cel);
 
 int bits_number(int number);
 

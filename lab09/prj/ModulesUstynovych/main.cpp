@@ -13,7 +13,7 @@ double s_calculation(double x, double y, double z)
     return S;
 }
 
-string rating (int rating)
+string rating (int mark)
 {
     if (rating >= 1 && rating <= 34 ){
         return "FX (with obligatory repeated course)";
@@ -44,17 +44,18 @@ string rating (int rating)
     }
 }
 
-int avr_temperature(double temp[7])
+int avr_temperature_cel(int d1, int d2, int d3, int d4, int d5, int d6, int d7)
 {
-    float sum, cel, far;
-    for (int i = 0; i < 7; i++) {
-        sum += temp[i];
-    }
-    cel = sum / 7;
-    far = 32 + 1.8 * cel;
+    int cel = (d1+d2+d3+d4+d5+d6+d7) / 7;
+    return cel;
 }
 
-
+int avr_temperature_far(int cel)
+{
+    int far;
+    far = 32 + 1.8 * cel;
+    return far;
+}
 
 int bits_number(int number)
 {
