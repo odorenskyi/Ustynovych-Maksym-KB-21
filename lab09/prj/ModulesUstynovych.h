@@ -10,8 +10,6 @@ using namespace std;
 
 double s_calculation(double x, double y, double z);
 
-void copyright();
-
 string rating (int rating);
 
 int avr_temperature(double temp[7]);
