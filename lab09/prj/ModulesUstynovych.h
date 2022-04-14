@@ -21,4 +21,5 @@ int bits_number(int number);
 string test_module (bool result);
 
 
+
 #endif // MODULESUSTYNOVYCH_H_INCLUDED
