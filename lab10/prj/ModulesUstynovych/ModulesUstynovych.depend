@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1584205422 source:d:\÷Õ“”\ustynovych-maksym-kb-21\lab10\prj\modulesustynovych\main.c
+
+1649965474 source:d:\÷Õ“”\ustynovych-maksym-kb-21\lab10\prj\modulesustynovych\main.cpp
+	<iostream>
+	<clocale>
+	<cmath>
+	<string>
+	<fstream>
+	<ctime>
+	<bitset>
+	<filesystem>
+
