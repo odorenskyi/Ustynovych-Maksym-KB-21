@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1649966265 source:d:\÷Õ“”\ustynovych-maksym-kb-21\lab10\prj\testdriver\main.cpp
+	<iomanip>
+	<conio.h>
+	<ModulesUstynovych.h>
+
+1649964750 d:\÷Õ“”\ustynovych-maksym-kb-21\lab10\prj\modulesustynovych.h
+	<iostream>
+	<clocale>
+	<cmath>
+	<string>
+	<fstream>
+	<ctime>
+	<bitset>
+	<filesystem>
+
