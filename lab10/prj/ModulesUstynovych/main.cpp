@@ -33,7 +33,7 @@ void checkFile (string outPutfile, string inPutfile)
     ofstream outfile(outPutfile);
 
     if (!infile || !outfile) {
-		cout << "ÕÂÏÓÊÎË‚Ó ‚≥‰ÍËÚË Ù‡ÈÎ ‰Îˇ Â‰‡„Û‚‡ÌÌˇ\a" << endl;
+		cout << "–ù–µ–º–æ–∂–ª–∏–≤–æ –≤—ñ–¥–∫—Ä–∏—Ç–∏ —Ñ–∞–π–ª –¥–ª—è —Ä–µ–¥–∞–≥—É–≤–∞–Ω–Ω—è\a" << endl;
         infile.close();
         outfile.close();
 	}
@@ -53,9 +53,9 @@ bool copyright(string outPutfile)
 {
     ofstream file (outPutfile, ios::out);
     file << "  -------------------------------" << endl
-       << " | ”ÒÚËÌÓ‚Ë˜ Ã‡ÍÒËÏ, ÷Õ“”        |" << endl
+       << " | –£—Å—Ç–∏–Ω–æ–≤–∏—á –ú–∞–∫—Å–∏–º, –¶–ù–¢–£        |" << endl
        << " | @ustynovychm@gmail.com        |" << endl
-       << " |  ÓÔË‚ÌËˆ¸ÍËÈ, ”Í‡øÌ‡, 2022  |" << endl
+       << " | –ö—Ä–æ–ø–∏–≤–Ω–∏—Ü—å–∫–∏–π, –£–∫—Ä–∞—ó–Ω–∞, 2022  |" << endl
        << "  -------------------------------" << endl << endl;
     file.close();
 }
@@ -63,25 +63,25 @@ bool copyright(string outPutfile)
 bool findString (string outPutfile, string stroke)
 {
     ofstream file(outPutfile, ios::app);
-    string virsh = R"( ÓÎË Ï‡ÎËÏ ÚË ‚ÔÂ¯Â ÒÚ‡‚ Ì‡ ÌÓ„Ë -
-            ﬂÍ‡ Ê ÚÓ ‡‰≥ÒÚ¸ Ï‡ÚÂ≥ ·ÛÎ‡!
-            ¬≥‰ ÚËıÓø ÍÓÎËÒÍË ‰Ó ÔÓÓ„‡
-            ¬ÓÌ‡ ÚÂ·Â Á‡ ÛÍÛ ÔÓ‚ÂÎ‡.
-            ¬ÓÌ‡ ÔË·≥„Î‡ ÒÚÓÏÎÂÌ‡ Á Ó·ÓÚË,
-            ≤, ÏÓÊÂ, ÒÓÌ øÈ Ó˜≥ Á‡ÏËÍ‡‚,
-            ¿ ‰ÓÏ‡ ó ÌÓ‚ËÈ ÍÎÓÔ≥Ú ≥ ÚÛ·ÓÚË,
-            ≤ ‰Ó‚„‡ ÌËÁÍ‡ ÌÂÔÓ˜‡ÚËı ÒÔ‡‚.)";
+    string virsh = R"(–ö–æ–ª–∏ –º–∞–ª–∏–º —Ç–∏ –≤–ø–µ—Ä—à–µ —Å—Ç–∞–≤ –Ω–∞ –Ω–æ–≥–∏ -
+            –Ø–∫–∞ –∂ —Ç–æ —Ä–∞–¥—ñ—Å—Ç—å –º–∞—Ç–µ—Ä—ñ –±—É–ª–∞!
+            –í—ñ–¥ —Ç–∏—Ö–æ—ó –∫–æ–ª–∏—Å–∫–∏ –¥–æ –ø–æ—Ä–æ–≥–∞
+            –í–æ–Ω–∞ —Ç–µ–±–µ –∑–∞ —Ä—É–∫—É –ø—Ä–æ–≤–µ–ª–∞.
+            –í–æ–Ω–∞ –ø—Ä–∏–±—ñ–≥–ª–∞ —Å—Ç–æ–º–ª–µ–Ω–∞ –∑ —Ä–æ–±–æ—Ç–∏,
+            –Ü, –º–æ–∂–µ, —Å–æ–Ω —ó–π –æ—á—ñ –∑–∞–º–∏–∫–∞–≤,
+            –ê –¥–æ–º–∞ ‚Äî –Ω–æ–≤–∏–π –∫–ª–æ–ø—ñ—Ç —ñ —Ç—É—Ä–±–æ—Ç–∏,
+            –Ü –¥–æ–≤–≥–∞ –Ω–∏–∑–∫–∞ –Ω–µ–ø–æ—á–∞—Ç–∏—Ö —Å–ø—Ä–∞–≤.)";
   size_t fstring;
 
   fstring = virsh.find(stroke);
   if(!file.is_open())
         return -1;
   if (fstring != string::npos) {
-        file << "–ˇ‰ÓÍ " << stroke << " - ÁÌ‡È‰ÂÌÓ" << endl << endl;
+        file << "–†—è–¥–æ–∫ " << stroke << " - –∑–Ω–∞–π–¥–µ–Ω–æ" << endl << endl;
         file.close();
         return true;
     }
-    file << "–ˇ‰ÓÍ "  << stroke << " - ÌÂ ÁÌ‡È‰ÂÌÓ" << endl << endl;
+    file << "–†—è–¥–æ–∫ "  << stroke << " - –Ω–µ –∑–Ω–∞–π–¥–µ–Ω–æ" << endl << endl;
     file.close();
     return false;
 }
@@ -92,12 +92,12 @@ int upAmount (string outPutfile, string stroke)
     ofstream file(outPutfile, ios::app);
     for (int i=0; i<stroke.length(); i++)
     {
-        if((stroke[i] >= 'A' && stroke[i] <= 'Z') || (stroke[i] >= '¿' && stroke[i] <= 'ﬂ'))
+        if((stroke[i] >= 'A' && stroke[i] <= 'Z') || (stroke[i] >= '–ê' && stroke[i] <= '–Ø'))
         {
             amount++;
         }
     }
-    file << " ≥Î¸Í≥ÒÚ¸ ÒËÏ‚ÓÎ≥‚ ‚ÂıÌ¸Ó„Ó Â„≥ÒÚ‡: " << amount << endl << endl;
+    file << "–ö—ñ–ª—å–∫—ñ—Å—Ç—å —Å–∏–º–≤–æ–ª—ñ–≤ –≤–µ—Ä—Ö–Ω—å–æ–≥–æ —Ä–µ–≥—ñ—Å—Ç—Ä–∞: " << amount << endl << endl;
     file.close();
     return amount;
 }
@@ -107,7 +107,7 @@ bool fileTime(string inPutfile)
     ofstream file(inPutfile, ios::app);
     time_t rawtime;
     time(&rawtime);
-    file << "ƒ‡Ú‡ Ú‡ ˜‡Ò ‰ÓÁ‡ÔËÒÛ ≥ÌÙÓÏ‡ˆ≥øø: " << ctime(&rawtime) << endl << endl;
+    file << "–î–∞—Ç–∞ —Ç–∞ —á–∞—Å –¥–æ–∑–∞–ø–∏—Å—É —ñ–Ω—Ñ–æ—Ä–º–∞—Ü—ñ—ó—ó: " << ctime(&rawtime) << endl << endl;
     file.close();
     return true;
 }
@@ -115,7 +115,7 @@ bool fileTime(string inPutfile)
 bool fileSize(string inPutfile)
 {
     ofstream file (inPutfile,ios::in | ios::ate);
-    file << "–ÓÁÏ≥ Ù‡ÈÎ‡: " << file.tellp() << endl << endl;
+    file << "–†–æ–∑–º—ñ—Ä —Ñ–∞–π–ª–∞: " << file.tellp() << endl << endl;
     file.close();
     return true;
 }
@@ -123,7 +123,7 @@ bool fileSize(string inPutfile)
 double s_calculationres(string outPutfile, double x, double y, double z)
 {
     ofstream file (outPutfile, ios::app);
-    file << "–ÂÁÛÎ¸Ú‡Ú ‚ËÍÓÌ‡ÌÌˇ ÙÛÌÍˆ≥ø s_calculation: " << s_calculation(x, y, z) << endl << endl;
+    file << "–†–µ–∑—É–ª—å—Ç–∞—Ç –≤–∏–∫–æ–Ω–∞–Ω–Ω—è —Ñ—É–Ω–∫—Ü—ñ—ó s_calculation: " << s_calculation(x, y, z) << endl << endl;
     file.close();
     return s_calculation(x, y, z);
 }
@@ -133,7 +133,7 @@ bool decimalToBinary(string outPutfile, int b)
 {
     ofstream file (outPutfile, ios::app);
     bitset <32> b_number(b);
-    file << "◊ËÒÎÓ " << b << " ‚ ‰‚≥ÈÍÓ‚≥È ÒËÒÚÂÏ≥: " << b_number << endl;
+    file << "–ß–∏—Å–ª–æ " << b << " –≤ –¥–≤—ñ–π–∫–æ–≤—ñ–π —Å–∏—Å—Ç–µ–º—ñ: " << b_number << endl;
     file.close();
     return 0;
 }

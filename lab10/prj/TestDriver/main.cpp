@@ -1,4 +1,4 @@
-#include <iomanip>
+п»ї#include <iomanip>
 #include <conio.h>
 #include <ModulesUstynovych.h>
 
@@ -9,8 +9,8 @@ int main()
     system("chcp 1251 & cls");
 
     string inPuttext [3] = {"sfds",
-                            "Від тихої колиски до порога",
-                            ".кАЦуй7ар9Г2ра"};
+                            "Р’С–Рґ С‚РёС…РѕС— РєРѕР»РёСЃРєРё РґРѕ РїРѕСЂРѕРіР°",
+                            ".РєРђР¦СѓР№7Р°СЂ9Р“2СЂР°"};
     int uppAmount [3] = {0, 1, 3};
     double x [3] = {1,2,3};
     double y [3] = {1,2,3};
@@ -22,21 +22,21 @@ int main()
     for(int i = 0; i < 3; i++) {
         checkFile("fileOut.txt", "fileIn.txt");
         cout << boolalpha
-             << "Запис рядка: " << textInfile("fileIn.txt", inPuttext[i]) << endl;
+             << "Р—Р°РїРёСЃ СЂСЏРґРєР°: " << textInfile("fileIn.txt", inPuttext[i]) << endl;
         cout << boolalpha
-             << "Запис авторської інформації: " << copyright("fileOut.txt") << endl;
+             << "Р—Р°РїРёСЃ Р°РІС‚РѕСЂСЃСЊРєРѕС— С–РЅС„РѕСЂРјР°С†С–С—: " << copyright("fileOut.txt") << endl;
         cout << boolalpha
-             << "Результат підрахунку кількості літер верхнього  регістра:"<< (upAmount("fileOut.txt", inPuttext[i]) == uppAmount[i]) << endl;
+             << "Р РµР·СѓР»СЊС‚Р°С‚ РїС–РґСЂР°С…СѓРЅРєСѓ РєС–Р»СЊРєРѕСЃС‚С– Р»С–С‚РµСЂ РІРµСЂС…РЅСЊРѕРіРѕ  СЂРµРіС–СЃС‚СЂР°:"<< (upAmount("fileOut.txt", inPuttext[i]) == uppAmount[i]) << endl;
         cout << boolalpha
-             << "Результат пошуку рядка: " << findString("fileOut.txt", inPuttext[i]) << endl;
+             << "Р РµР·СѓР»СЊС‚Р°С‚ РїРѕС€СѓРєСѓ СЂСЏРґРєР°: " << findString("fileOut.txt", inPuttext[i]) << endl;
         cout << boolalpha
-             << "Дозапис часу редагування файлу: "<< fileTime("fileIn.txt") << endl;
+             << "Р”РѕР·Р°РїРёСЃ С‡Р°СЃСѓ СЂРµРґР°РіСѓРІР°РЅРЅСЏ С„Р°Р№Р»Сѓ: "<< fileTime("fileIn.txt") << endl;
         cout << boolalpha
-             << "Дозапис об'єму файла: "<< fileSize("fileIn.txt")<< endl;
+             << "Р”РѕР·Р°РїРёСЃ РѕР±'С”РјСѓ С„Р°Р№Р»Р°: "<< fileSize("fileIn.txt")<< endl;
         cout << boolalpha
-             << "Результату функції s_calculation: "<< (s_calculationres("fileOut.txt", x[i], y[i], z[i]) <= expS[i] + 0.005) << endl;
+             << "Р РµР·СѓР»СЊС‚Р°С‚Сѓ С„СѓРЅРєС†С–С— s_calculation: "<< (s_calculationres("fileOut.txt", x[i], y[i], z[i]) <= expS[i] + 0.005) << endl;
         cout << boolalpha
-             << "Конвертування десяткового числа в двійкове: " << (decimalToBinary("fileOut.txt", b[i]) <= expB[i]) << endl << endl << endl;
+             << "РљРѕРЅРІРµСЂС‚СѓРІР°РЅРЅСЏ РґРµСЃСЏС‚РєРѕРІРѕРіРѕ С‡РёСЃР»Р° РІ РґРІС–Р№РєРѕРІРµ: " << (decimalToBinary("fileOut.txt", b[i]) <= expB[i]) << endl << endl << endl;
 
         getch();
     }
