@@ -27,10 +27,10 @@ void addUnit(Settings *&root)
     string sNameSelection = "";
     string sCodeUnit = "";
 
-    strcpy(newUnit->numSelection, inputData(4, sNumSelection, "Óâåä³òü íîìåð ðîçä³ëó: ").c_str());
-    strcpy(newUnit->nameUnit, inputData(256, sNameUnit, "Óâåä³òü íàçâó ðîçä³ëó: ").c_str());
-    strcpy(newUnit->codeUnit, inputData(4, sCodeUnit, "Óâåä³òü íîìåð òîâàðó: ").c_str());
-    strcpy(newUnit->nameSelection, inputData(256, sNameSelection, "Óâåä³òü íàçâó òîâàðó: ").c_str());
+    strcpy(newUnit->numSelection, inputData(4, sNumSelection, "Ð£Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð¾Ð¼ÐµÑ€ Ñ€Ð¾Ð·Ð´Ñ–Ð»Ñƒ: ").c_str());
+    strcpy(newUnit->nameUnit, inputData(256, sNameUnit, "Ð£Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð°Ð·Ð²Ñƒ Ñ€Ð¾Ð·Ð´Ñ–Ð»Ñƒ: ").c_str());
+    strcpy(newUnit->codeUnit, inputData(4, sCodeUnit, "Ð£Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð¾Ð¼ÐµÑ€ Ñ‚Ð¾Ð²Ð°Ñ€Ñƒ: ").c_str());
+    strcpy(newUnit->nameSelection, inputData(256, sNameSelection, "Ð£Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ð½Ð°Ð·Ð²Ñƒ Ñ‚Ð¾Ð²Ð°Ñ€Ñƒ: ").c_str());
 
     buff->next = newUnit;
     buff = buff->next;
@@ -42,7 +42,7 @@ void deleteUnit(Settings *&root)
     Settings *buff = nullptr;
 
     char searchCode[4] = "";
-    cout << endl << "Óâåä³òü êîä çàïèñó, çàïèñ ÿêîãî õî÷åòå âèäàëèòè: ";
+    cout << endl << "Ð£Ð²ÐµÐ´Ñ–Ñ‚ÑŒ ÐºÐ¾Ð´ Ð·Ð°Ð¿Ð¸ÑÑƒ, Ð·Ð°Ð¿Ð¸Ñ ÑÐºÐ¾Ð³Ð¾ Ñ…Ð¾Ñ‡ÐµÑ‚Ðµ Ð²Ð¸Ð´Ð°Ð»Ð¸Ñ‚Ð¸: ";
     cin >> searchCode;
 
     while(find != nullptr)
