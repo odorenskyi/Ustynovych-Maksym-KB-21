@@ -1,5 +1,4 @@
 #include "ModulesUstynovych.h"
-#include "struct_type_project_4.h"
 
 using namespace std;
 
