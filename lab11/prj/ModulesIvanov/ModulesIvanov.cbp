@@ -16,8 +16,8 @@
 				<Compiler>
 					<Add option="-Wall" />
 					<Add option="-g" />
-					<Add directory="../../../prj" />
 					<Add directory="../ModulesIvanov" />
+					<Add directory="../../prj" />
 				</Compiler>
 				<Linker>
 					<Add directory="bin/Debug" />

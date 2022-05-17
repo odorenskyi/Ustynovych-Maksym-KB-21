@@ -16,8 +16,8 @@
 				<Compiler>
 					<Add option="-Wall" />
 					<Add option="-g" />
-					<Add directory="../../prj" />
 					<Add directory="../ModulesVasylenko" />
+					<Add directory="../../prj" />
 				</Compiler>
 				<Linker>
 					<Add library="bin/Debug/libModulesVasylenko.a" />
