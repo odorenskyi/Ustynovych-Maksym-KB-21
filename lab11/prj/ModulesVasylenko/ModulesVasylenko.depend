@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1652467951 source:c:\users\avoca\desktop\lab11\prj\modulesvasylenko\main.cpp
+	"ModulesVasylenko.h"
+	<cstring>
+	<windows.h>
+	<fstream>
+
+1652283992 c:\users\avoca\desktop\lab11\prj\struct_type_project_4.h
+
+1652467986 c:\users\avoca\desktop\lab11\prj\modulesvasylenko\modulesvasylenko.h
+	"struct_type_project_4.h"
+	<iostream>
+	<string>
+	<cstring>
+	<windows.h>
+	<fstream>
+
