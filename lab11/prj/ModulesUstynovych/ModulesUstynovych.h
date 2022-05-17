@@ -9,9 +9,9 @@
 
 using namespace std;
 
-string inputData(int numByt, string data, string msg);
+string inputData(string msg);
 
-void addUnit(Settings *&root);
+void addUnit(Settings * root);
 
 void deleteUnit(Settings *&root);
 

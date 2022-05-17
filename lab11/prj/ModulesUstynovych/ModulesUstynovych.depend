@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1652795926 source:d:\÷Õ“”\ustynovych-maksym-kb-21\lab11\prj\modulesustynovych\main.cpp
+	"ModulesUstynovych.h"
+
+1652353131 d:\÷Õ“”\ustynovych-maksym-kb-21\lab11\prj\modulesustynovych\modulesustynovych.h
+	"struct_type_project_4.h"
+	<iostream>
+	<string>
+	<string.h>
+
+1652277699 d:\÷Õ“”\ustynovych-maksym-kb-21\lab11\prj\struct_type_project_4.h
+
