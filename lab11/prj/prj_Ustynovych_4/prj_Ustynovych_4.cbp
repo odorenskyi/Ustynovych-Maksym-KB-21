@@ -16,6 +16,7 @@
 					<Add directory="../ModulesUstynovych" />
 					<Add directory="../ModulesIvanov" />
 					<Add directory="../ModulesVasylenko" />
+					<Add directory="../../prj" />
 				</Compiler>
 				<Linker>
 					<Add library="../ModulesIvanov/bin/Debug/libModulesIvanov.a" />
