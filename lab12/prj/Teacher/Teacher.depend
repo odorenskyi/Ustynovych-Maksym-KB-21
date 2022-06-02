@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1654189833 source:d:\cntu\ustynovych-maksym-kb-21\lab12\prj\teacher\main.cpp
+	"ModulesUstynovych.h"
+	"Functions.h"
+
+1654189353 d:\cntu\ustynovych-maksym-kb-21\lab12\prj\teacher\modulesustynovych.h
+	<iostream>
+	<cstring>
+	<string>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<regex>
+
+1654190022 d:\cntu\ustynovych-maksym-kb-21\lab12\prj\teacher\functions.h
+	<iostream>
+	<cstring>
+	<string>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<regex>
+	"ModulesUstynovych.h"
+

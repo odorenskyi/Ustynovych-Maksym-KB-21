@@ -1,0 +1,20 @@
+Width    : 5.00
+Height   : 4.00
+Square   : 20.000
+Perimeter: 18.000
+Width    : 6.00
+Height   : 7.00
+Square   : 42.000
+Perimeter: 26.000
+Width    : 9.00
+Height   : 2.00
+Square   : 18.000
+Perimeter: 22.000
+Width    : 3.00
+Height   : 9.00
+Square   : 27.000
+Perimeter: 24.000
+Width    : 8.00
+Height   : 4.00
+Square   : 32.000
+Perimeter: 24.000

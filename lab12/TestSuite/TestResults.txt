@@ -1,0 +1,7 @@
++----------------------------------+--------------------------------------------
+|TC_1 |h - 5.00    w - 4.00    |square - 20         |perimeter - 18 Passed
+|TC_2 |h - 6.00    w - 7.00    |square - 42         |perimeter - 26 Passed
+|TC_3 |h - 9.00    w - 2.00    |square - 18         |perimeter - 22 Passed
+|TC_4 |h - 3.00    w - 9.00    |square - 27         |perimeter - 24 Passed
+|TC_5 |h - 8.00    w - 4.00    |square - 32         |perimeter - 24 Passed
++-------------------------------------------------------------------------------+
